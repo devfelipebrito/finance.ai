@@ -1,3 +1,8 @@
+import {
+  TransactionCategory,
+  TransactionPaymentMethod,
+  TransactionType,
+} from "@prisma/client";
 import { z } from "zod";
 
 export const addTransactionSchema = z.object({
